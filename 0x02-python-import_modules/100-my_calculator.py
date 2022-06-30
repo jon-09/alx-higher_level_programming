@@ -5,12 +5,11 @@ if __name__ == "__main__":
     import sys
     from calculator_1 import add, sub, mul, div
 
-    argc = len(sys.argv)
-    args = argc - 1
-    a = 0
-    b = 0
+    argc = len(sys.argv) - 1
+    a = sys.argv[1]
+    b = sys.argv[3]
     opr = sys.argv[2]
-    if args != 3:
+    if argc != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
