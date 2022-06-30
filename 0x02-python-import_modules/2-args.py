@@ -4,15 +4,15 @@ if __name__ == "__main__":
 
     import sys
 
-    argcnt = len(sys.argv) - 1
-    if argcnt == 1:
-        print("{} argument".format(argcnt), end="")
+    argcnt = len(sys.argv)
+    argn = argcnt - 1
+    if argcnt - 1 == 1:
+        print("{} argument".format(argn), end="")
     else:
-        print("{} arguments".format(argcnt), end="")
-    if argcnt == 0:
+        print("{} arguments".format(argn), end="")
+    if argcnt - 1 == 0:
         print(".")
     else:
         print(":")
     for i in range(1, argcnt):
-        print("{}: {}".format(i, argcnt[i]))
-    
+        print("{}: {}".format(i, sys.argv[i]))
