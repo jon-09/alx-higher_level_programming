@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-if __name__ = "__main__":
+if __name__ == "__main__":
 
     import sys
 
@@ -10,7 +10,7 @@ if __name__ = "__main__":
     else:
         print("{} arguments".format(argcnt), end="")
     if argcnt == 0:
-        print("argument .")
+        print(".")
     else:
         print(":")
     for i in range(1, argcnt):
