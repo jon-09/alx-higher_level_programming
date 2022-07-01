@@ -6,6 +6,8 @@ if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
 
     argc = len(sys.argv) - 1
+    a = 0
+    b = 0
 
     if argc == 3:
         a = int(sys.argv[1])
