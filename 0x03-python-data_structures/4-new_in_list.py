@@ -7,7 +7,6 @@ def new_in_list(my_list, idx, element):
 
     if idx >= 0 and idx <= argc:
         new_list[idx] = element
-        print("newlist")
         return new_list
     else:
         return my_list
