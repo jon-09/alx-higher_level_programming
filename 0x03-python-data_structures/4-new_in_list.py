@@ -2,13 +2,12 @@
 
 def new_in_list(my_list, idx, element):
 
-    argc = len(my_list) - 1
-    new_list[] = my_list
+    argc = len(my_list)
+    new_list = [x for x in my_list]
 
-    if idx < 0:
-        return my_list
-    elif idx > argc:
-        return my_list
-    else:
+    if idx >= 0 and idx <= argc:
         new_list[idx] = element
+        print("newlist")
         return new_list
+    else:
+        return my_list
