@@ -3,12 +3,10 @@
 def new_in_list(my_list, idx, element):
 
     argc = len(my_list)
-    new_list = []
+    new_list = my_list.copy()
 
-    for i in my_list:
-        new_list.append(my_list[i])
     if idx >= 0 and idx <= argc:
         new_list[idx] = element
         return new_list
     else:
-        return my_list
+        return new_list
