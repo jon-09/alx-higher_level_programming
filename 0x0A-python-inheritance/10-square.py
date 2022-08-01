@@ -22,4 +22,4 @@ class Square(Rectangle):
         Returns:
             int: The area of this geometry object. """
 
-        return self.__size * self.
+        return self.__size * self.__size
