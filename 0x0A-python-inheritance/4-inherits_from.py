@@ -1,6 +1,6 @@
 
 #!/usr/bin/python3
-""" A module for inspecting an object. """
+# A module for inspecting an object.
 
 
 def inherits_from(obj, a_class):
