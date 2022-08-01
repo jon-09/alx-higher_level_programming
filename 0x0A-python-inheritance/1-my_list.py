@@ -10,4 +10,4 @@ class MyList(list):
 
         list_sorted = sorted(self)
         print(list_sorted)
-        del 
+        del list_sorted 
