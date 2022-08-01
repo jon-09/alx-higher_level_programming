@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """ A module containing a rebellious int. """
 
