@@ -1,7 +1,8 @@
 #!/usr/bin/node
+
 /*
- a script that writes a string to a file
- */
+a script that writes a string to a file
+*/
 
 const file = process.argv[2];
 const string = process.argv[3];
