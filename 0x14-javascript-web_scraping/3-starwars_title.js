@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /*
- a script that prints the title of a Star Wars movie where the episode number matches a given integer
+a script that prints the title of a Star Wars movie where the episode number matches a given integer
  */
 
 const id = process.argv[2];
